@@ -374,7 +374,7 @@ class Slicer:
         """
         print(f"layer heights: {self.get_layer_heights()}")
         print(f"Saving file {file_name} to {save_path}")
-        file_type_class = FileTypeRegistry.get("pm4u")  # Get the file type class from the registry
+        file_type_class = FileTypeRegistry.get(self.printer.export_file_type)  # Get the file type class from the registry#
         file_type_object = file_type_class(
             file_name, self.printer, self.resin,
             self.layers_image, self.intersection_levels,
