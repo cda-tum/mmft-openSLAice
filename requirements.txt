@@ -1,7 +1,7 @@
 affine==2.4.0
 asttokens==3.0.0
 attrs==25.3.0
-certifi==2025.4.26
+certifi==2026.10.19
 click==8.2.1
 click-plugins==1.1.1
 cligj==0.7.2
